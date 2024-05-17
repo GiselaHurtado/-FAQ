@@ -1,26 +1,31 @@
 body {
     font-family: "Lato", sans-serif;
   }
+.titulo-indice {
+    color: grey;
+    text-align: center;
+}
 
 .sidenav {
-    width: 130px; 
+    width: 250px; 
+    height: auto;
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
-    top: 20px; /* Stay at the top */
-    left: 10px;
-    background-color: #111; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding: 180px;
+    top: 5px; /* Stay at the top */
+    margin-left: 0%;
+    background-color: none; /* Disable horizontal scroll */
+    margin-bottom: 50px;
   }
   
   /* The navigation menu links */
   .sidenav a {
-    padding: 6px 0px 0px 0px;
+    padding: 1px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 15px;
     color: #818181;
-    display: block;
-    text-align: auto;
+    overflow-x: hidden;
+    justify-content: space-around;
+    display: flex;
   }
   
   /* When you mouse over the navigation links, change their color */
@@ -30,8 +35,8 @@ body {
   
   /* Style page content */
   .content {
-    margin-left: 400px; /* Same as the width of the sidebar */
-    padding: 0px 100px;
+    margin-left: 260px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
